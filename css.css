@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    background-color: #F0DAD0;
+}
+
+
+header {
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+    background-image: url(colazione/ai.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.freccetta {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 92%;
+    border-radius: 29px;
+    padding: 5px 30px 8px 30px;
+    border: solid rgb(0, 0, 0) 0, 5px;
+    background-color: #FDEFCB;
+    font-size: 35px;
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    font-family: LexendExa-Bold;
+    scr: local(LexendExa-Bold),
+        /Users/gloriapulvirenti/Desktop/slide/font/LexendExa-Bold.ttf;
+}
+
+.polaroid {
+    margin: 25px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 285px;
+}
+
+img {
+    height: 200px;
+    width: 260px;
+    padding: 10px;
+}
+
+.pietanza {
+    display: flex;
+}
+
+h2 {
+    margin: 0px;
+    margin-left: 9px;
+    font-family: GaramondPremrPro-Bd;
+    scr: local(GaramondPremrPro-Bd),
+        /Users/gloriapulvirenti/Desktop/slide/font/GaramondPremrPro-Bd.otf;
+    font-weight: normal;
+}
+
+h3 {
+    margin: 0px;
+    padding: 2%;
+    font-family: LexendExa-Light;
+    scr: local(LexendExa-Light),
+        /Users/gloriapulvirenti/Desktop/slide/font/LexendExa-Light.ttf;
+    font-weight: normal;
+    font-size: 16px
+}
+
+.colonna {
+    margin-top: 30px;
+}
+
+.muffin {
+    margin: 0;
+    background-image: url(colazione/muffin.jpeg);
+    width: 1920px;
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    margin: 30px;
+    font-size: 30px;
+    max-width: 450px;
+    position: absolute;
+    top: 900px;
+    left: 15px;
+    font-family: LexendExa-Bold;
+    scr: local(LexendExa-Bold),
+        /Users/gloriapulvirenti/Desktop/slide/font/LexendExa-Bold.ttf;
+}
